@@ -1,18 +1,18 @@
 import Link from "next/link";
 import ThemeSelect from "./ThemeSelect";
+import { FaHome } from "react-icons/fa";
 
 function Header() {
     return (
 
         <div className="navbar bg-base-500 shadow-sm">
-
             <div className="flex-1">
-                <Link href="/" className="btn btn-ghost text-xl">Inicio</Link>
+                <Link href="/" className="btn btn-ghost text-xl"> <FaHome />Inicio</Link>
                 <ThemeSelect />
             </div>
-            <div className="flex-none pr-20">
+            <div className="flex-none pr-40">
                 <ul className="menu menu-horizontal px-1">
-                    <li>
+                    {/*<li>
                         <Link href="/pagina1">Página 1</Link>
                     </li>
                     <li>
@@ -21,7 +21,7 @@ function Header() {
 
 
                     <li>
-                        <div className="dropdown dropdown-end">
+                         <div className="dropdown dropdown-end">
                             <div tabIndex={0} role="button">Otras páginas</div>
                             <ul
                                 tabIndex={0}
@@ -36,8 +36,8 @@ function Header() {
                                     <Link href="/pagina5">Página 5</Link>
                                 </li>
                             </ul>
-                        </div>
-                    </li>
+                        </div> 
+                    </li>*/}
 
 
 
@@ -45,14 +45,21 @@ function Header() {
                         <input id="my-drawer" type="checkbox" className="drawer-toggle" />
                         <div className="drawer-content fixed top-0 right-0 z-10">
                             {/* Page content here */}
-                            <label htmlFor="my-drawer" className=" btn btn-primary drawer-button size-15 rounded-full">Drawer</label>
+                            <label htmlFor="my-drawer" className=" btn bg-blue-400 drawer-button w-40">
+                                <h1 className="text-xs text-white" >Fix &amp; Code</h1>
+                                <Link href="/">
+                                </Link>
+                                </label>
                         </div>
                         <div className="drawer-side z-10">
                             <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
                             <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
                                 {/* Sidebar content here */}
-                                <li><Link href="/pagina1">Pagina 1</Link></li>
-                                <li><Link href="/pagina2">Pagina 2</Link></li>
+                                <li><Link href="/pagina1">Tienda de hardware</Link></li>
+                                <li><Link href="/pagina2">Servicios</Link></li>
+                                <li><Link href="/pagina1">Desarrollo de aplicaciones</Link></li>
+                                <li><Link href="/pagina2">Contacto</Link></li>
+                                <li><Link href="/pagina1">Solicitar empleo</Link></li>
                             </ul>
                         </div>
                     </div>
