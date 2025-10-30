@@ -44,12 +44,9 @@ body {
 }
 
 p, i, b {
-  color: white; /* Color del texto */
   text-align: justify; /* Justifica el texto */
   font-size: 25px; /* Tamaño de la fuente */
 }
-
-
 
 footer p {
   margin: 0; /* Elimina el margen del párrafo dentro del pie de página */
@@ -57,4 +54,23 @@ footer p {
   font-size: 16px; /* Tamaño de la fuente del párrafo */
   margin: 0 auto; /* Centra el contenido horizontalmente */
   text-align: center; /* Centra el texto del párrafo */
+}
+
+/* Estilos para la imagen de compra */
+.imgcomprar {
+  width: 300px; /* Ancho de la imagen */
+  height: 300px; /* Altura de la imagen */
+  margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.divsection1 {
+  border-radius: 16px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.divsection1:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }

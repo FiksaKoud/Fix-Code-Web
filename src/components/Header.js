@@ -55,9 +55,7 @@ function Header() {
                             <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
                             <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
                                 {/* Sidebar content here */}
-                                <li><Link href="/pagina1">Tienda de hardware</Link></li>
-                                <li><Link href="/pagina2">Servicios</Link></li>
-                                <li><Link href="/pagina1">Desarrollo de aplicaciones</Link></li>
+                                <li><Link href="/tienda">Tienda</Link></li>
                                 <li><Link href="/pagina2">Contacto</Link></li>
                                 <li><Link href="/pagina1">Solicitar empleo</Link></li>
                             </ul>
