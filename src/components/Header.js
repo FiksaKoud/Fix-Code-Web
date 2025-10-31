@@ -57,7 +57,7 @@ function Header() {
                                 {/* Sidebar content here */}
                                 <li><Link href="/tienda">Tienda</Link></li>
                                 <li><Link href="/pagina2">Contacto</Link></li>
-                                <li><Link href="/pagina1">Solicitar empleo</Link></li>
+                                <li><Link href="/formulario">Solicitar empleo</Link></li>
                             </ul>
                         </div>
                     </div>
