@@ -56,7 +56,7 @@ function Header() {
                             <ul className="menu bg-base-200 text-base-content min-h-full w-80 p-4">
                                 {/* Sidebar content here */}
                                 <li><Link href="/tienda">Tienda</Link></li>
-                                <li><Link href="/pagina2">Contacto</Link></li>
+                                <li><Link href="/contacto">Contacto</Link></li>
                                 <li><Link href="/formulario">Solicitar empleo</Link></li>
                             </ul>
                         </div>
