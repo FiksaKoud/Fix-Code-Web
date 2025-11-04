@@ -208,7 +208,7 @@ function Page1() {
       <div className="flex justify-center items-center p-6 bg-base-100 rounded-2xl mb-4 shadow-md text-center max-w-3xl mx-auto">
         <div>
             <h2 className="text-3xl font-bold mb-3">¡Bienvenido a nuestra tienda!</h2>
-            <p className="text-gray-700 text-lg">
+            <p>
             Explora nuestros productos y servicios. Usa el filtro de categorías
             para encontrar rápidamente lo que necesitas. 
             Descubre hardware, servicios de administración y desarrollo a tu alcance.
