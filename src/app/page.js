@@ -18,7 +18,7 @@ export default function Home() {
       <br />
 
       <section className="py-12 bg-base-100">
-  <div className="divcontenido max-w-4xl mx-auto bg-base-200 p-8 rounded-2xl shadow">
+  <div className="max-w-4xl mx-auto bg-base-200 p-8 rounded-2xl shadow">
     <h2 className="text-3xl font-bold text-center mb-4">
       <i>Bienvenido</i>
     </h2>

@@ -10,7 +10,7 @@ export default function EnterpriseSchedule() {
     const hora = ahora.getHours();
     const dia = ahora.getDay(); // 0 = domingo, 6 = sábado
 
-    if (dia >= 1 && dia <= 5 && hora >= 8 && hora < 14) {
+    if (dia >= 1 && dia <= 5 && hora >= 8 && hora < 14 || (hora >= 16 && hora < 22)) {
       setAbierto(true);
     } else {
       setAbierto(false);
